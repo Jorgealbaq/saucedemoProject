@@ -4,10 +4,8 @@ Este repositorio contiene pruebas automatizadas que validan las funcionalidades 
 
 Instrucciones de Instalación con comandos: 
 1. Clona este repositorio en tu máquina local:
-git clone https://github.com/tu-usuario/tu-repositorio.git
-2. Navega al directorio del proyecto:
-cd nombre-del-proyecto
-3. Instala las dependencias nombradas:
+git clone https://github.com/Jorgealbaq/saucedemoProject.git
+2. Se utilizaron las siguientes dependencias:
 - org.seleniumhq.selenium:selenium-java:3.141.59
 - org.assertj:assertj-core:3.21.0 (scope: test)
 - org.testng:testng:7.7.1
@@ -15,7 +13,5 @@ cd nombre-del-proyecto
 - io.rest-assured:rest-assured:4.4.0 (scope: test)
 
 Ejecución de las Pruebas
-1. Asegúrate de estar en el directorio del proyecto.
-2. Ejecuta las pruebas usando el comando:
-mvn test
-3. Los resultados de las pruebas se mostrarán en la consola y se generarán reportes en la carpeta test-output archivo emailable-report.
+1. Ejecuta las pruebas 
+2. Los resultados de las pruebas se mostrarán en la consola y se generarán reportes en la carpeta test-output archivo emailable-report.
