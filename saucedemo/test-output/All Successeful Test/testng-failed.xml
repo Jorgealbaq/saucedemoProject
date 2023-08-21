@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Successeful Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Successful blacked user(failed)">
+    <classes>
+      <class name="project.tests.TestPageSuccess">
+        <methods>
+          <include name="loginAndRemoveProduct"/>
+          <include name="afterMethod"/>
+          <include name="navigateToPage"/>
+        </methods>
+      </class> <!-- project.tests.TestPageSuccess -->
+    </classes>
+  </test> <!-- Successful blacked user(failed) -->
+</suite> <!-- Failed suite [All Successeful Test] -->

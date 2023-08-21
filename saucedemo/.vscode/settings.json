@@ -1,0 +1,6 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "editor.accessibilityPageSize": 10,
+    "editor.fontSize": 14,
+    "java.compile.nullAnalysis.mode": "automatic"
+}

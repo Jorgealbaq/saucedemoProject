@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="All Successful Tests">
+        <classes>
+            <class name="project.tests.TestPageSuccess">
+                <methods>
+                    <include name="lockedUser"/>
+                    <include name="loginAndAddProduct"/>
+                    <include name="loginAndRemoveProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="All Failed Tests">
+        <classes>
+            <class name="project.tests.TestPageFailed">
+                <methods>
+                    <include name="failedLogin"/>
+                    <include name="failedlockedUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
