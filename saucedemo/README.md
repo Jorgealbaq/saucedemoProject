@@ -11,6 +11,8 @@ git clone https://github.com/Jorgealbaq/saucedemoProject.git
 - org.testng:testng:7.7.1
 - commons-io:commons-io:2.11.0
 - io.rest-assured:rest-assured:4.4.0 (scope: test)
+3. Versión de ChromeDriver Versión 116.0.5845.97
+4. Versión de Firefox 116.0.3 
 
 Ejecución de las Pruebas
 1. Ejecuta las pruebas 
